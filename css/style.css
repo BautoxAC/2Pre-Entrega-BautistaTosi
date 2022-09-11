@@ -75,11 +75,11 @@ body main img{
 }
 
 /* estilos de Productos */
-table tr td{
-    padding: 10px;
-
+body main h1{
+    text-align: center;
+    margin: 1rem;
 }
-table tr td img{
-    height: 100px;
-    width: 100px;
+.contenedorpro{
+    display: grid;
+    grid-template-areas: ;
 }
