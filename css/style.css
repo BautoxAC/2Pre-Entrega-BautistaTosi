@@ -39,8 +39,8 @@ body header nav ul{
 }
 /* estilo del footer */
 .footer{
-
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
     background-color: #ca813cad;
@@ -66,8 +66,6 @@ body header nav ul{
 .contacto__formulario{
     margin: 20px 400px;
 }
-
-
 /* estilos de sed */
 body main img{
     height: 200px;
@@ -87,9 +85,10 @@ body main h1{
     margin: 0rem 1rem;
     padding: 1rem 0rem;
     width: 33.3%;
-    height: 25rem;
     text-align: center;
     border: 0.3rem solid black;
+    overflow: auto;
+    transition: 1s;
 }
 .contenedorpro__hijo h2{
     padding: 1rem;
@@ -98,6 +97,12 @@ body main h1{
     font-weight: bold;
     font-size: 1.5rem;
     padding-bottom: 1rem;
+}
+.contenedorpro__hijo:hover{
+    transform: scale(1.1);
+}
+.contenedorpro__hijo img{
+    width: 66.6%;
 }
 .contenedorpro span{
     padding: 0.5rem;
