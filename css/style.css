@@ -1,0 +1,85 @@
+/*reset*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* estilo del body */
+body{
+    background-color: goldenrod;
+}
+/*estilo de el menu*/
+
+body header{
+    display: flex;
+    justify-content: end;
+}
+body header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+body header nav ul li{
+    font-weight: bold;
+    display: inline;
+    padding: 1rem;
+}
+body header nav{
+    display: flex;
+    margin: 0.5rem;
+    justify-content: center;
+    flex-flow: row nowrap;
+    background-color: blue;
+    border: 0.3rem solid black;
+    border-radius: 1rem;
+    width: 37.5rem;
+}
+body header nav ul{
+    padding: 15px;
+}
+/* estilo del footer */
+.footer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ca813cad;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.footer__subt{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*estilo de contact*/
+
+.contacto__formulario__titulo{
+    border: 4px double black;
+    background-color: yellow;
+    font-size: 25px;
+}
+.contacto__formulario__caja {
+    background-color: greenyellow;
+    text-align: center;
+}
+.contacto__formulario{
+    margin: 20px 400px;
+}
+
+
+/* estilos de sed */
+body main img{
+    height: 200px;
+    width: 300px;
+}
+
+/* estilos de Productos */
+table tr td{
+    padding: 10px;
+
+}
+table tr td img{
+    height: 100px;
+    width: 100px;
+}
