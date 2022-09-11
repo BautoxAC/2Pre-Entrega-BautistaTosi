@@ -81,5 +81,19 @@ body main h1{
 }
 .contenedorpro{
     display: grid;
-    grid-template-areas: ;
+    grid-template-areas: 
+    "hijo1 hijo2"
+    "hijo3 hijo2";
+}
+.contenedorpro__hijo1{
+    padding: 1rem;
+    width: 33.3%;
+    height: 25rem;
+    text-align: center;
+}
+.contenedorpro__hijo h2{
+    padding: 1rem;
+}
+.contenedorpro span{
+    padding: 0.5rem;
 }
