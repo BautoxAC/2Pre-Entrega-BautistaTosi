@@ -3,10 +3,10 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /* estilo del body */
 body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: goldenrod;
 }
 /*estilo de el menu*/
