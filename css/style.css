@@ -104,7 +104,7 @@ body main h1{
     padding-bottom: 1rem;
 }
 .contenedorpro__hijo:hover{
-    transform: scale(1.1);
+    transform: scale(1.08);
 }
 .contenedorpro__hijo img{
     width: 66.6%;
