@@ -8,7 +8,7 @@
 /* estilo del body */
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: orange;
+    background-color: rgb(173, 173, 173);
 }
 
 /*estilo de el menu*/
@@ -27,12 +27,13 @@ body header nav ul li {
     font-weight: bold;
     display: inline;
     padding: 1rem;
-    transition: 0.8s;
+    transition: 0, 5s;
 }
 
 header nav ul li:hover {
-    background-color: rgb(8, 8, 151);
+    background-color: rgba(3, 3, 187, 0.986);
     box-shadow: 1px 1px 3px black;
+    text-decoration: underline;
 }
 
 body header nav {
@@ -92,6 +93,11 @@ body main img {
 
 .contenedorsed {
     display: grid;
+    margin: 3rem;
+    row-gap: 1rem;
+    align-items: center;
+    text-align: center;
+    border: 0.3rem solid black;
     grid-template-areas:
         "hijo1 hijo2"
         "hijo4 hijo3"
@@ -100,33 +106,47 @@ body main img {
 
 .contenedorsed__hijo1 {
     grid-area: hijo1;
+    padding: 2rem;
 }
 
 .contenedorsed__hijo2 {
     grid-area: hijo2;
+    padding: 2rem;
 }
 
 .contenedorsed__hijo3 {
     grid-area: hijo3;
+    padding: 2rem;
 }
 
 .contenedorsed__hijo4 {
     grid-area: hijo4;
+    padding: 2rem;
 }
 
 .contenedorsed__hijo5 {
     grid-area: hijo5;
+    padding: 2rem;
 }
 
 .contenedorsed__hijo6 {
     grid-area: hijo6;
+    padding: 2rem;
+}
+
+main section div h2{
+    font-size: xx-large;
+    margin: 0.5rem;
+}
+/* estilos del h1 */
+body main h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem;
+    margin-bottom: 2rem;
 }
 
 /* estilos de Productos */
-body main h1 {
-    text-align: center;
-    margin: 1rem;
-}
 
 .contenedorpro {
     display: flex;
