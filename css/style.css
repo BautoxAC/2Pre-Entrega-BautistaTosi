@@ -107,6 +107,7 @@ body main img {
 .contenedorsed__hijo1 {
     grid-area: hijo1;
     padding: 2rem;
+    align-self: center;
 }
 
 .contenedorsed__hijo2 {
@@ -133,11 +134,14 @@ body main img {
     grid-area: hijo6;
     padding: 2rem;
 }
-
-main section div h2{
+.contenedorsed div img{
+    width:60%;
+}
+main section div h2 {
     font-size: xx-large;
     margin: 0.5rem;
 }
+
 /* estilos del h1 */
 body main h1 {
     font-size: 3rem;
