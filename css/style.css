@@ -1,46 +1,10 @@
 /*reset*/
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-/* estilo del body */
-body {
-    background-color: rgb(248, 220, 220);
-}
-
-/*estilo de el menu*/
-
-body header nav{
-    display: block;
-    text-align: end;
-}
-
-
-
-body header nav ul li {
-    font-weight: bold;
-    padding: 1rem;
-}
-
-/* estilo del footer */
-.footer {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
-    background-color: #072849;
-    padding: 10px;
-    margin-top: 10px;
-    color: white;
-    gap: 0.6rem;
-}
-
-.footer__subt {
-    font-size: 20px;
-    font-weight: bold;
-}
 
 /*estilo de contact*/
 
@@ -76,110 +40,166 @@ main form fieldset section {
     margin: 5rem 1rem;
 }
 
-/* estilos de sed */
+/* estilos del nav */
+body header nav {
+    display: block;
+    text-align: end;
+    background-color: rgb(252, 239, 239);
+}
+
+body header nav ul li {
+    font-weight: bold;
+    padding: 1rem;
+}
+
+/* estilos de sedes */
+.contenedorsed {
+    display: none;
+}
 
 body main img {
     height: 12.5rem;
     width: 18.75rem;
 }
-
-.contenedorsed {
-    display: grid;
-    margin: 3rem;
-    row-gap: 1rem;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+section div div{
+    display: inline;
     text-align: center;
-    border: 0.5rem solid black;
-    grid-template-areas:
-        "hijo1 hijo2"
-        "hijo4 hijo3"
-        "hijo5 hijo6";
+}
+section div div h2{
+    color: black;
+}
+/* estilo del body */
+body {
+    background-color: rgb(248, 220, 220);
 }
 
-.contenedorsed__hijo1 {
-    grid-area: hijo1;
-    padding: 2rem;
-    align-self: center;
+/* estilo del footer */
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #072849;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    gap: 0.6rem;
 }
 
-.contenedorsed__hijo2 {
-    grid-area: hijo2;
-    padding: 2rem;
-}
-
-.contenedorsed__hijo3 {
-    grid-area: hijo3;
-    padding: 2rem;
-}
-
-.contenedorsed__hijo4 {
-    grid-area: hijo4;
-    padding: 2rem;
-}
-
-.contenedorsed__hijo5 {
-    grid-area: hijo5;
-    padding: 2rem;
-}
-
-.contenedorsed__hijo6 {
-    grid-area: hijo6;
-    padding: 2rem;
-}
-
-.contenedorsed div img {
-    width: 60%;
-}
-
-main section div h2 {
-    font-size: xx-large;
-    margin: 0.5rem;
+.footer__subt {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* estilos del h1 */
 body main h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
-    margin: 1rem;
-    margin-bottom: 2rem;
+    margin: 2rem;
 }
 
-/* estilos de Productos */
+@media screen and (min-width:600px) {
 
-.contenedorpro {
-    display: flex;
-    justify-content: center;
-}
+    /* estilos de sed */
+    .carrusel {
+        display: none;
+    }
 
-.contenedorpro__hijo {
-    margin: 0rem 1rem;
-    padding: 1rem 0rem;
-    width: 33.3%;
-    text-align: center;
-    border: 0.3rem solid black;
-    overflow: auto;
-    transition: 1s;
-}
+    .contenedorsed {
+        display: grid;
+        margin: 3rem;
+        row-gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: center;
+        border: 0.5rem solid black;
+        grid-template-areas:
+            "hijo1 hijo2"
+            "hijo4 hijo3"
+            "hijo5 hijo6";
+    }
 
-.contenedorpro__hijo h2 {
-    padding: 1rem;
-}
+    .contenedorsed__hijo1 {
+        grid-area: hijo1;
+        padding: 2rem;
+        align-self: center;
+    }
 
-.contenedorpro__hijo p {
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
-}
+    .contenedorsed__hijo2 {
+        grid-area: hijo2;
+        padding: 2rem;
+    }
 
-.contenedorpro__hijo:hover {
-    transform: scale(1.08);
-}
+    .contenedorsed__hijo3 {
+        grid-area: hijo3;
+        padding: 2rem;
+    }
 
-.contenedorpro__hijo img {
-    width: 66.6%;
-}
+    .contenedorsed__hijo4 {
+        grid-area: hijo4;
+        padding: 2rem;
+    }
 
-.contenedorpro span {
-    padding: 0.5rem;
+    .contenedorsed__hijo5 {
+        grid-area: hijo5;
+        padding: 2rem;
+    }
+
+    .contenedorsed__hijo6 {
+        grid-area: hijo6;
+        padding: 2rem;
+    }
+
+    .contenedorsed div img {
+        width: 60%;
+    }
+
+    main section div h2 {
+        font-size: xx-large;
+        margin: 0.5rem;
+    }
+
+    /* estilos de Productos */
+
+    .contenedorpro {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedorpro__hijo {
+        margin: 0rem 1rem;
+        padding: 1rem 0rem;
+        width: 33.3%;
+        text-align: center;
+        border: 0.3rem solid black;
+        overflow: auto;
+        transition: 1s;
+    }
+
+    .contenedorpro__hijo h2 {
+        padding: 1rem;
+    }
+
+    .contenedorpro__hijo p {
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .contenedorpro__hijo:hover {
+        transform: scale(1.08);
+    }
+
+    .contenedorpro__hijo img {
+        width: 66.6%;
+    }
+
+    .contenedorpro span {
+        padding: 0.5rem;
+    }
+
+    /* estilos del h1 */
+    body main h1 {
+        font-size: 3rem;
+    }
 }
