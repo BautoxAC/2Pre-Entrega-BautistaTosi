@@ -8,7 +8,7 @@
 /* estilo del body */
 body {
     background-color: rgb(248, 220, 220);
-    font-family: Futura,sans-serif;
+    font-family: Futura, sans-serif;
 }
 
 /*estilo de contact*/
@@ -55,6 +55,11 @@ body header nav {
 body header nav ul li {
     font-weight: bold;
     padding: 1rem;
+    transition: 1s;
+}
+body header nav ul li:hover{
+    text-decoration: underline;
+    transform: scale(1.08);
 }
 
 /* estilos de sedes */
@@ -66,11 +71,13 @@ body main img {
     height: 12.5rem;
     width: 18.75rem;
 }
-section div div{
+
+section div div {
     display: inline;
     text-align: center;
 }
-section div div h2{
+
+section div div h2 {
     color: black;
 }
 
@@ -98,8 +105,9 @@ body main h1 {
     text-align: center;
     margin: 2rem;
 }
+
 /* estilo de productos */
-.contenedorpro{
+.contenedorpro {
     display: flex;
     flex-flow: column wrap;
 }
@@ -205,9 +213,11 @@ body main h1 {
         justify-content: center;
         flex-flow: row nowrap;
     }
-    .contenedorpro__hijo{
+
+    .contenedorpro__hijo {
         width: 33.3%;
     }
+
     /* estilos del h1 */
     body main h1 {
         font-size: 3rem;
