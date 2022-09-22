@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* estilo del body */
+body {
+    background-color: rgb(248, 220, 220);
+    font-family: Futura,sans-serif;
+}
 
 /*estilo de contact*/
 
@@ -68,11 +73,6 @@ section div div{
 section div div h2{
     color: black;
 }
-/* estilo del body */
-body {
-    background-color: rgb(248, 220, 220);
-    font-family: Futura,sans-serif;
-}
 
 /* estilo del footer */
 .footer {
@@ -99,9 +99,10 @@ body main h1 {
     margin: 2rem;
 }
 
+/* estilos de la mediaquerie */
 @media screen and (min-width:600px) {
 
-    /* estilos de sed */
+    /* estilos de sed de mediquerie*/
     .carrusel {
         display: none;
     }
@@ -160,7 +161,7 @@ body main h1 {
         margin: 0.5rem;
     }
 
-    /* estilos de Productos */
+    /* estilos de Productos de mediaquerie*/
 
     .contenedorpro {
         display: flex;
