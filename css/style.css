@@ -123,7 +123,9 @@ section div div {
     align-items: center;
     text-align: center;
     border: 0.5rem solid black;
-    grid-template-areas: "hijo1 hijo2" "hijo4 hijo3" "hijo5 hijo6"; }
+    grid-template-areas: "hijo1 hijo2"
+ "hijo4 hijo3"
+ "hijo5 hijo6"; }
     .contenedorsed div img {
       width: 60%; }
   .contenedorsed__hijo1 {
